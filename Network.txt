@@ -1,0 +1,49 @@
+Network
+
+LAN 1 => Utilities :
+
+Network: 192.168.1.0/26
+Mask: 255.255.255.192
+Usable: 192.168.1.1 –192.168.1.62
+Broadcast: 192.168.1.63
+Router IP: 192.168.1.1
+
+
+LAN 2 => City Hall :
+
+Network: 192.168.1.64/27
+Mask: 255.255.255.224
+Usable: 192.168.1.65 – 192.168.1.94
+Broadcast: 192.168.1.95
+Router IP: 192.168.1.65
+
+VLAN(10) LAN 3 => Public Safety :
+
+Network: 192.168.1.96/28
+Mask: 255.255.255.240
+Usable: 192.168.1.97 – 192.168.1.110
+Broadcast: 192.168.1.111
+Router IP: 192.168.1.97
+
+VLAN(20) LAN 3 => Public Safety :
+
+Network: 192.168.1.112/28
+Mask: 255.255.255.240
+Usable: 192.168.1.113 – 192.168.1.126
+Broadcast: 192.168.1.127
+Router IP: 192.168.1.113
+
+LAN 2 => City Hall :
+
+Network: 192.168.1.128/29
+Mask: 255.255.255.248
+Usable: 192.168.1.129 – 192.168.1.134
+Broadcast: 192.168.1.135
+Router IP: 192.168.1.129
+
+Link 1 (R1 ↔ R2)
+
+Network: 192.168.1.136/30
+Mask: 255.255.255.252
+Usable: 192.168.1.137 – 192.168.1.138
+Broadcast: 192.168.1.139
